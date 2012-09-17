@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D98D9D1606D0DD00DC8C44 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D98D9C1606D0DD00DC8C44 /* main.c */; };
+		49D98D9F1606D0DD00DC8C44 /* tic_tac_toe_state_navigator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49D98D9E1606D0DD00DC8C44 /* tic_tac_toe_state_navigator.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49D98D971606D0DD00DC8C44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				49D98D9F1606D0DD00DC8C44 /* tic_tac_toe_state_navigator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49D98D991606D0DD00DC8C44 /* tic-tac-toe-state-navigator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tic-tac-toe-state-navigator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D98D9C1606D0DD00DC8C44 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		49D98D9E1606D0DD00DC8C44 /* tic_tac_toe_state_navigator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = tic_tac_toe_state_navigator.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D98D961606D0DD00DC8C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D98D6E1606CE2900DC8C44 = {
+			isa = PBXGroup;
+			children = (
+				49D98D9B1606D0DD00DC8C44 /* tic-tac-toe-state-navigator */,
+				49D98D7A1606CE2900DC8C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D98D7A1606CE2900DC8C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D98D991606D0DD00DC8C44 /* tic-tac-toe-state-navigator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D98D9B1606D0DD00DC8C44 /* tic-tac-toe-state-navigator */ = {
+			isa = PBXGroup;
+			children = (
+				49D98D9C1606D0DD00DC8C44 /* main.c */,
+				49D98D9E1606D0DD00DC8C44 /* tic_tac_toe_state_navigator.1 */,
+			);
+			path = "tic-tac-toe-state-navigator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D98D981606D0DD00DC8C44 /* tic-tac-toe-state-navigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D98DA01606D0DD00DC8C44 /* Build configuration list for PBXNativeTarget "tic-tac-toe-state-navigator" */;
+			buildPhases = (
+				49D98D951606D0DD00DC8C44 /* Sources */,
+				49D98D961606D0DD00DC8C44 /* Frameworks */,
+				49D98D971606D0DD00DC8C44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tic-tac-toe-state-navigator";
+			productName = "tic-tac-toe-state-navigator";
+			productReference = 49D98D991606D0DD00DC8C44 /* tic-tac-toe-state-navigator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D98D701606CE2900DC8C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Andrew Keller";
+			};
+			buildConfigurationList = 49D98D731606CE2900DC8C44 /* Build configuration list for PBXProject "Finite Game State Navigator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49D98D6E1606CE2900DC8C44;
+			productRefGroup = 49D98D7A1606CE2900DC8C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D98D981606D0DD00DC8C44 /* tic-tac-toe-state-navigator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D98D951606D0DD00DC8C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D98D9D1606D0DD00DC8C44 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49D98D811606CE2900DC8C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49D98D821606CE2900DC8C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49D98DA11606D0DD00DC8C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49D98DA21606D0DD00DC8C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D98D731606CE2900DC8C44 /* Build configuration list for PBXProject "Finite Game State Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D98D811606CE2900DC8C44 /* Debug */,
+				49D98D821606CE2900DC8C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D98DA01606D0DD00DC8C44 /* Build configuration list for PBXNativeTarget "tic-tac-toe-state-navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D98DA11606D0DD00DC8C44 /* Debug */,
+				49D98DA21606D0DD00DC8C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D98D701606CE2900DC8C44 /* Project object */;
+}

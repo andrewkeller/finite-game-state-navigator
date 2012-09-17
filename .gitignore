@@ -1,0 +1,2 @@
+# Ignore system files on Mac OS X:
+.DS_Store

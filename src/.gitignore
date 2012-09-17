@@ -1,0 +1,3 @@
+# Ignore Xcode build directories and user data:
+builds
+xcuserdata
